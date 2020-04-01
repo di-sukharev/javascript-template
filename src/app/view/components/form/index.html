@@ -1,0 +1,20 @@
+<style>
+  .check {
+    color: orange;
+  }
+</style>
+
+<div class="wrapper">
+  <slot name="heading">
+    heading
+  </slot>
+
+  <p class="check">in between text</p>
+
+  <slot name="text">
+    text
+  </slot>
+  <!-- default slot -->
+  <slot></slot>
+  <!-- default slot -->
+</div>

@@ -1,0 +1,51 @@
+<style>
+  .wrapper {
+    padding: 20px;
+  }
+  .block {
+    margin: auto;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background: #fff;
+    display: flex;
+    max-width: 77%;
+  }
+  .block-item {
+    padding: 2rem;
+  }
+  .left {
+    background-image: url("src/img/something.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  .right {
+  }
+  .form {
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: block;
+  }
+  .form-item {
+    display: block;
+    width: 100%;
+  }
+</style>
+
+<div id="view">
+  <div class="wrapper root">
+    <div class="block">
+      <div class="block-item left">
+        <div class="logo"></div>
+      </div>
+      <div class="block-item right">
+        <h1>Registration</h1>
+        <form name="SIGN_UP" class="form mt" action="">
+          <input class="form-item" type="text" placeholder="name" />
+          <input class="form-item" type="text" placeholder="email" />
+          <input class="form-item" type="text" placeholder="phone" />
+          <button class="btn-big">submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

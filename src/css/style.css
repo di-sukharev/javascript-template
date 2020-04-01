@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff"),
+    url("../fonts/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+html {
+  font-family: "JetBrains Mono";
+  background: linear-gradient(to bottom, #e1e6ec 0%, #f0f4f7 100%),
+    linear-gradient(to bottom, #e1e6ec 0%, #f0f4f7 100%);
+  background-blend-mode: normal, color-burn;
+  background-size: cover;
+  height: 100%;
+  /* todo – change font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1600 - 320))); */
+  font-size: 20px;
+}
+
+.unicorn {
+  background: linear-gradient(to bottom, #e1e6ec 0%, #f0f4f7 100%),
+    linear-gradient(to bottom, #e1e6ec 0%, #f0f4f7 100%);
+  background-blend-mode: normal, color-burn;
+}
+
+.cosmos {
+  background-color: #797572;
+  background-image: linear-gradient(
+      -173deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      #000000 100%
+    ),
+    linear-gradient(
+      72deg,
+      rgba(255, 255, 255, 0.25) 25%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    radial-gradient(
+      47% 102%,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(21, 24, 32, 0.6) 120%
+    );
+  background-blend-mode: multiply;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+h5 {
+  font-size: 0.5rem;
+  margin-bottom: 10px;
+}
+h6 {
+  font-size: 0.2rem;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 1rem;
+  margin: 1rem 0;
+  border: none;
+  background: #e5e5e5;
+  padding: 10px;
+}
+
+button {
+  font-size: 1rem;
+  border: none;
+  background: #e5e5e5;
+  padding: 10px 20px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.btn-big {
+  text-transform: uppercase;
+}
+
+.mt {
+  margin-top: 2rem;
+}
+
+.mr {
+  margin-right: 2rem;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.ml {
+  margin-left: 2rem;
+}
